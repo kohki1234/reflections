@@ -13,11 +13,18 @@ I can use "diff --staged" to see the difference between staging and repository
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+If you are not sure if you are going to implement certain function or you might want to test something to show somehone.
 
 How do the diagrams help you visualize the branch structure?
+As it might be a bit hard to have visual image from git, so it is very useful to depict the graph so that you are able to see the whole image easily.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+merging two branches together means that master branches absorbe the coins branch.
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+You can proactively check which part was newly added or deleted and check if the automatic merge had any side effect on it.
+
+Auto merge is very powerful tool but it might make possibley side effect which developer didn't think about.
